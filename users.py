@@ -8,4 +8,4 @@ users = response_json['users']
 
 for user in users:
     if user['age'] == 28:
-        print(user['firstName'])
+        print(f"{user['firstName']} {user['lastName']}")
